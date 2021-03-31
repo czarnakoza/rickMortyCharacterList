@@ -157,8 +157,9 @@ class MainActivity : AppCompatActivity(), DownloadJSON.DataDownloaded, JSONDataP
                 char.isFav = true
             }
         }
-        if(next != null && next.isNotEmpty()) {
+        if(next != "null" && next.isNotEmpty()) {
             downloadData(next)
+            return
         }
         recyclerViewAdapter.loadData(mainCharacterList)
     }
