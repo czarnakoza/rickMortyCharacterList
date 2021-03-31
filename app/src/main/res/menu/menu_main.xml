@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="marekh.test.rickmortyjsonapp.MainActivity">
+    <group android:id="@+id/grp">
+        <item
+            android:id="@+id/menufav"
+            android:checkable="true"
+            android:title="Favourite" />
+        <item
+            android:id="@+id/menualive"
+            android:checkable="true"
+            android:title="Alive" />
+        <item
+            android:id="@+id/menudead"
+            android:checkable="true"
+            android:title="Dead" />
+        <item
+            android:id="@+id/menuunknown"
+            android:checkable="true"
+            android:title="Unknown" />
+        <item
+            android:id="@+id/menuall"
+            android:checkable="true"
+            android:checked="true"
+            android:title="All" />
+    </group>
+</menu>
